@@ -1,0 +1,112 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: rgb(36,33,36);
+    overflow: hidden;
+    user-select: none;
+}
+
+header {
+    height: 6rem;
+}
+
+.nav {
+    height: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.name {
+    padding-left: 10px;
+    margin-top: 1rem;
+    width: 25%;
+}
+#img1 {
+    height: 2.5rem;
+    width: 100px;
+    object-fit: contain;
+}
+
+.nav-section {
+    margin-top: 1rem;
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#genre {
+    background-color: transparent;
+    border: none;
+}
+
+#type {
+    background-color: transparent;
+    border: none;
+}
+
+.language {
+    height: 2rem;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#eng {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+#jpn {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(48, 47, 47)  ;
+
+}
+
+.sign-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.trending { 
+    margin-top: 2rem;  
+    height: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.trend-img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.search {
+    position: absolute;
+    left: 200px;
+    bottom: 300px;
+    height: 3rem;
+    width: 50rem;
+    background-color: white;
+}
+
+.search form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.18.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/line-awesome@1.3.0/dist/line-awesome/css/line-awesome.min.css">
+    <link rel="stylesheet" href="animesuge.css">
+    <link rel="stylesheet" href="line-awsome.min.css">
+    <title>Anime</title>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="name"><a href="https://animesuge.to/home">
+                <img src="images/logo.png" id="img1" href="https://animesuge.to/home" ></a></div>
+            <div class="nav-section">
+                <div class="dropdown g1">
+                    <label tabindex="0" class="btn m-2" id="genre">GENRES</label>
+                    <ul tabindex="0" class="dropdown-content menu  ">
+                        <li><a>Action</a></li>
+                        <li><a>Adventure</a></li>
+                        <li><a>Comdey</a></li>
+                        <li><a>Demons</a></li>
+                        <li><a>Drama</a></li>
+                    </ul> 
+                </div>
+                <div class="dropdown t1">
+                    <label tabindex="0" class="btn m-2" id="type">Types</label>
+                    <ul tabindex="0" class="dropdown-content menu">
+                        <li><a>TV</a></li>
+                        <li><a>Movies</a></li>
+                        <li><a>OVA</a></li>
+                        <li><a>ONA</a></li>
+                        <li><a>Songs</a></li>
+                    </ul>
+                </div>
+                <div class="update"><p>Update</p></div>
+                <div class="update"><p>Added</p></div>
+                <div class="update"><p>Ongoing</p></div>
+                <div class="update"><p>Upcoming</p></div>
+                <div class="update"><p>Schedule</p></div>
+                <div class="language">
+                    <div id="eng">EN</div>
+                    <div id="jpn">JP</div>
+                </div>
+                <div class="sign-in"><div><i class="fa-regular fa-user" style="color: #525252;"></i></div>
+                  <div><p>Sign-in</p></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="trending">
+            <img src="images/img-1.webp" class="object-cover"> 
+        </div>
+        <div class="search">
+            <form autocomplete="off" action="filter">
+                <div class="s1"><i class="fa-solid fa-magnifying-glass fa-xl" style="color: #242424;"></i> 
+                <input class="px-3 py-2 border border-slate-600 rounded-xl focus:outline-0" type="text" placeholder="search" name="keyword" ></div>
+                <div class="s2"><a class="filter-btn btn btn-sm btn-secondary" href="filter">Filter</a></div>
+            </form>
+        </div>
+    </div>  
+    <div class="share">
+        <p>If you enjoy the website, please consider sharing it with your friends. Thank you!</p>
+        <div class="social">
+            <div class="shares"><p>80K Shares</p></div>
+            <div class="facebook"><button><i class="fa-brands fa-facebook"></i> 22.4K </button></div>
+            <div class="X"><i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i> 9.7K</div>
+            <div class="messenger"><i class="fa-brands fa-facebook-messenger" style="color: #ffffff;"></i>4.1K</div>
+            <div class="reddit"><i class="fa-brands fa-reddit-alien" style="color: #ffffff;"></i>15.4K</div>
+            <div class="whatsapp"><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i> 9.1K</div>
+            <div class="telegram"><i class="fa-brands fa-telegram" style="color: #ffffff;"></i></div>
+        </div>
+    </div>
+
+    <div class="upload">
+        <div class="ruu">
+        <div class="ru"><h2><p>Recently</p><p>UPDATE</p></h2></div>
+        <div class="choice" style="color: #707070;">
+            <div class="all">ALL</div>
+            <div class="sub">SUB</div>
+            <div class="chinese">CHINESE</div>
+            <div class="trend">Trending</div>
+        </div>
+        </div>
+        <div class="arrow">
+            <div class="left-arrow" ><i class="las la-angle-left"></i></div>
+            <div class="right-arrow"><i class="las la-angle-right"></i></div>
+        </div>
+    </div>
+    <div class="video">
+        <div class="item">
+            <div class="inner">
+                <div class="item-top">
+                    <a class="ani" href="images/i1.jpg">
+                        <div>
+                             <img src="images/i1.jpg">
+                        </div>
+                    </a>
+                    <div class="ep">
+                        <div class="cc"><i class="fa-regular fa-closed-captioning" style="color: #ffffff;"></i></div>
+                        <div class="mike"><img src="images/icons8-mike-30.png "></div>
+                    </div>
+                    <h3><p style="color: #707070;">MASHEL</p></h3>
+                </div>
+        </div>
+        </div>
+        <div class="item">
+            <div class="inner">
+                <div class="item-top">
+                    <a class="ani" href="images/i7.jpg">
+                        <div>
+                             <img src="images/i7.jpg">
+                        </div>
+                    </a>
+                    <div class="ep">
+                        <div class="cc"><i class="fa-regular fa-closed-captioning" style="color: #ffffff;"></i></div>
+                        <div class="mike"><img src="images/icons8-mike-30.png "></div>
+                    </div>
+                    <h3><p style="color: #707070;">The Wrong Way To Use<br>Healing Mgic</p></h3>
+                </div>
+        </div>
+        </div>
+        <div class="item">
+            <div class="inner">
+                <div class="item-top">
+                    <a class="ani" href="images/i2.jpg">
+                        <div>
+                             <img src="images/i2.jpg">
+                        </div>
+                    </a>
+                    <div class="ep">
+                        <div class="cc"><i class="fa-regular fa-closed-captioning" style="color: #ffffff;"></i></div>
+                        <div class="mike"><img src="images/icons8-mike-30.png "></div>
+                    </div>
+                    <h3><p style="color: #707070;">SOLO LEVELING</p></h3>
+                </div>
+        </div>
+        </div>
+        <div class="item">
+            <div class="inner">
+                <div class="item-top">
+                    <a class="ani" href="images/i3.jpg">
+                        <div>
+                             <img src="images/i3.jpg">
+                        </div>
+                    </a>
+                    <div class="ep">
+                        <div class="cc"><i class="fa-regular fa-closed-captioning" style="color: #ffffff;"></i></div>
+                        <div class="mike"><img src="images/icons8-mike-30.png "></div>
+                    </div>
+                    <h3><p style="color: #707070;">ONE PIECE</h3>
+                </div>
+        </div>
+        </div>
+        <div class="item">
+            <div class="inner">
+                <div class="item-top">
+                    <a class="ani" href="images/i4.jpg">
+                        <div>
+                             <img src="images/i4.jpg">
+                        </div>
+                    </a>
+                    <div class="ep">
+                        <div class="cc"><i class="fa-regular fa-closed-captioning" style="color: #ffffff;"></i></div>
+                        <div class="mike"><img src="images/icons8-mike-30.png "></div>
+                    </div>
+                    <h3><p style="color: #707070;">JUJUTSU KAISEN</p></h3>
+                </div>
+        </div>
+        </div>
+        <div class="item">
+            <div class="inner">
+                <div class="item-top">
+                    <a class="ani" href="images/i5.jpg">
+                        <div>
+                             <img src="images/i5.jpg">
+                        </div>
+                    </a>
+                    <div class="ep">
+                        <div class="cc"><i class="fa-regular fa-closed-captioning" style="color: #ffffff;"></i></div>
+                        <div class="mike"><img src="images/icons8-mike-30.png "></div>
+                    </div>
+                    <h3><p style="color: #707070;">NARUTO</p></h3>
+                </div>
+        </div>
+        </div>
+        <div class="item">
+            <div class="inner">
+                <div class="item-top">
+                    <a class="ani" href="images/i6.jpg">
+                        <div>
+                             <img src="images/i6.jpg">
+                        </div>
+                    </a>
+                    <div class="ep">
+                        <div class="cc"><i class="fa-regular fa-closed-captioning" style="color: #ffffff;"></i></div>
+                        <div class="mike"><img src="images/icons8-mike-30.png "></div>
+                    </div>
+                    <h3><p style="color: #707070;">BLACK CLOVER</p></h3>
+                </div>
+        </div>
+        </div>
+        <div class="item">
+            <div class="inner">
+                <div class="item-top">
+                    <a class="ani" href="images/i1.jpg">
+                        <div>
+                             <img src="images/i1.jpg">
+                        </div>
+                    </a>
+                    <div class="ep">
+                        <div class="cc"><i class="fa-regular fa-closed-captioning" style="color: #ffffff;"></i></div>
+                        <div class="mike"><img src="images/icons8-mike-30.png "></div>
+                    </div>
+                    <h3><p style="color: #707070;">MASHEL</p></h3>
+                </div>
+        </div>
+        </div>
+        <div class="item">
+            <div class="inner">
+                <div class="item-top">
+                    <a class="ani" href="images/i1.jpg">
+                        <div>
+                             <img src="images/i1.jpg">
+                        </div>
+                    </a>
+                    <div class="ep">
+                        <div class="cc"><i class="fa-regular fa-closed-captioning" style="color: #ffffff;"></i></div>
+                        <div class="mike"><img src="images/icons8-mike-30.png "></div>
+                    </div>
+                    <h3><p style="color: #707070;">MASHEL</p></h3>
+                </div>
+        </div>
+        </div>
+        <div class="item">
+            <div class="inner">
+                <div class="item-top">
+                    <a class="ani" href="images/i1.jpg">
+                        <div>
+                             <img src="images/i1.jpg">
+                        </div>
+                    </a>
+                    <div class="ep">
+                        <div class="cc"><i class="fa-regular fa-closed-captioning" style="color: #ffffff;"></i></div>
+                        <div class="mike"><img src="images/icons8-mike-30.png "></div>
+                    </div>
+                    <h3><p style="color: #707070;">MASHEL</p></h3>
+                </div>
+        </div>
+        </div>
+        <div class="item">
+            <div class="inner">
+                <div class="item-top">
+                    <a class="ani" href="images/i1.jpg">
+                        <div>
+                             <img src="images/i1.jpg">
+                        </div>
+                    </a>
+                    <div class="ep">
+                        <div class="cc"><i class="fa-regular fa-closed-captioning" style="color: #ffffff;"></i></div>
+                        <div class="mike"><img src="images/icons8-mike-30.png "></div>
+                    </div>
+                    <h3><p style="color: #707070;">MASHEL</p></h3>
+                </div>
+        </div>
+        </div>
+        <div class="item">
+            <div class="inner">
+                <div class="item-top">
+                    <a class="ani" href="images/i1.jpg">
+                        <div>
+                             <img src="images/i1.jpg">
+                        </div>
+                    </a>
+                    <div class="ep">
+                        <div class="cc"><i class="fa-regular fa-closed-captioning" style="color: #ffffff;"></i></div>
+                        <div class="mike"><img src="images/icons8-mike-30.png "></div>
+                    </div>
+                    <h3><p style="color: #707070;">MASHEL</p></h3>
+                </div>
+        </div>
+        </div>
+    </div>
+    <div class="sector">
+        <div class="recently-added">
+                <div><h1><b>Recently<br>Added</b></h1>
+                <div class="ra" id="r1"></div>
+                <div class="ra" id="r2"></div>
+                <div class="ra" id="r3"></div>
+                <div class="ra" id="r4"></div>
+                <div class="ra" id="r5"></div>
+                <div class="ra" id="r6"></div>
+                </div>
+        </div>
+        <div class="most-viwed">
+            <div class="view">
+                <div><h1><b>MOST VIWED</b></h1></div>
+                <div class="date">
+                    <div>DAY</div>
+                    <div>WEEK</div>
+                    <div>MONTH</div>
+                </div>
+            </div>
+            <div class="m1">
+                 <div class="z1">
+                <div class="k1"><div id="rank">01</div></div>
+                <div class="k2"><img src="images/b1.jpg"></div>
+                 </div>
+                 <div class="op">
+                 <div><h2>One Piece</h2>
+                    </div>
+                    <div style="color: #707070;">TV</div>
+                    </div>
+            </div>
+            <div class="m2">
+                <div>02</div>
+                <div>Solo Leveling</div>
+                <div>TV</div>
+            </div>
+            <div class="m2" style="background-color:#242323;">
+                <div>03</div>
+                <div>MASHEL</div>
+                <div>TV</div>
+            </div>
+            <div class="m2">
+                <div>04</div>
+                <div>Classroom Of The Elites</div>
+                <div>TV</div>
+            </div>
+            <div class="m2" style="background-color: #242323;">
+                <div>05</div>
+                <div>The Wrong Way To Use Healing Power</div>
+                <div>TV</div>
+            </div>
+        </div>
+        <div class="just-completed">
+            <div><h1><b>JUST<br>Completed</b></h1>
+                <div class="ja" id="r1"></div>
+                <div class="ja" id="r2"></div>
+                <div class="ja" id="r3"></div>
+                <div class="ja" id="r4"></div>
+                <div class="ja" id="r5"></div>
+                <div class="ja" id="r6"></div>
+                </div>
+        </div>
+    </div>
+    <footer>
+        <div class="back-to-top">
+            <i class="fa-solid fa-chevron-up" style="color: #707070;"></i> <h2><p>Back To Top</p></h2>
+        </div>
+        <hr>
+        <div class="mini-cont">
+           <p>A-Z list</p>
+           <p>Recently Added</p>
+           <p>Upcoming</p>
+           <p>Most Watched</p>
+           <p>Request</p>
+           <p>FAQ</p>
+           <p>Contact</p> 
+        </div>
+        <div class="end">
+            <div class="copyright">
+                <img src="images/logo.png"> <p style="color:#707070;">Copyright © animesuge.to. All Rights Reserved</p>
+            </div>
+            <div class="disclaimer">
+                <p>Made with  for anime users!
+                    <br>Disclaimer: This site does not store any files on its server. All contents are provided by non-affiliated third parties.</p>
+            </div>
+        </div>
+    </footer>
+<script src="animesuge.js"></script>
+</body>
+</html>
